@@ -25,7 +25,7 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="what i did" />
+        <Title title="Qu'est ce que c'est ?" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -39,14 +39,14 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Insight Solutions, anciennement connue sous le nom de SwissAnalytics, est une start-up fondée par Sébastien Vignon en partenariat avec Eureka Corporation, une entreprise IT qui offre des services d’hébergement web, de la sécurité web, du matériel IT et du support technique.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Insight Solutions a pour but d’aider les entreprises à quantifier, optimiser et maîtriser leurs organisations, tout en respectant leur capital humain à travers nos outils digitaux.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || 'Rendez-vous sur le site pour en savoir plus...'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
@@ -56,7 +56,7 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      Resume
+                      Site - Insight Solutions
                     </a>
                   </span>
                 )}

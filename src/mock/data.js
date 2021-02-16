@@ -17,40 +17,49 @@ export const heroData = {
 
 // about
 export const aboutData = {
-    img: 'profile.jpg',
+    img: 'islogo.png',
     paragraphOne: '',
     paragraphTwo: '',
     paragraphThree: '',
-    resume: 'https://www.resumemaker.online/es.php',
+    resume: 'https://insight-solutions-demo.netlify.app/',
 };
 
 // PROJECTS DATA
 export const projectsData = [{
         id: nanoid(),
-        img: 'project.jpg',
-        title: '',
-        info: '',
+        img: 'team.jpg',
+        title: 'La Team ',
+        info: 'L opportunité de travailler avec une équipe jeune et dynamique. Chaque membre apporte un background différent chez Insight Solutions. ',
         info2: '',
-        url: '',
-        repo: 'https://github.com/cobidev/react-simplefolio',
+        url: 'https://team-insight-solutions.netlify.app/',
+        repo: 'https://github.com/Omar-Saleh-DEV/team-insight',
     },
     {
         id: nanoid(),
-        img: 'project.jpg',
-        title: '',
-        info: '',
+        img: 'contrib.png',
+        title: 'Ma contribution',
+        info: 'Création du site web, dashboard, questionnaire et E-commerce de Insight Solutions. Gestion administrative des comptes Azure et Wordpress. Implication dans la gestion de projet.  ',
         info2: '',
-        url: '',
-        repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+        url: 'https://contribution-insight-solutions.netlify.app',
+        repo: 'https://github.com/Omar-Saleh-DEV/contribution',
     },
     {
         id: nanoid(),
-        img: 'project.jpg',
-        title: '',
-        info: '',
-        info2: '',
+        img: 'plusandminus.jpg',
+        title: 'Les + et les -',
+        info: ' Les "+": Collaborer avec un étudiant CREA DEV et un ex-etudiant CREA. Faire partie des enjeux et des problématiques de la boîte, board meeting. Liberté dans le developpement front-end.',
+        info2: 'Les "-": Manque de communication. Un stage pas aussi full-stack que je le souhaitais. Le Covid',
         url: '',
-        repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+        repo: '',
+    },
+    {
+        id: nanoid(),
+        img: 'persoproj.jpg',
+        title: 'Les projets en parallèle du stage',
+        info: 'Beaucoup de mandats, contrats et projets tout au long de mon stage chez Insight ce qui va jouer un très grand rôle dans mon developpement personnel. ',
+        info2: '',
+        url: 'https://personnal-projects-stage.netlify.app/',
+        repo: 'https://github.com/Omar-Saleh-DEV/personnel-projects-stage',
     },
 ];
 
@@ -88,5 +97,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-    isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+    isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
